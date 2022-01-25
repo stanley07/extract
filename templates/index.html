@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+{% load static %}
+{% block content %}
+Welcome to my blog.
+{% for post in post_list %}
+{{ post.title }}
+{{ post.author }} | {{ post.created_on}}
+
+{{post.content|slice:":200" }}
+
+Read More →
+{% endfor %}
+{% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% block title %}Home{% endblock %} {% block content %} {% if user.is_authenticated %} Hi {{ user.username }}!
+Log Out
+
+{% else %}
+You are not logged in
+
+Log In {% endif %} {% endblock %}
