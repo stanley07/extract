@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-xm1#ks@pg+$_j!o+0^y7lwie!&orbv)_v^jcy^h2y6i@c58c%$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', "predictor.herokuapp.com", ".machinepredictor.com"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', "sportsint.herokuapp.com", ".machinepredictor.com"]
 
 
 # Application definition
